@@ -1,0 +1,1 @@
+gcloud ai-platform local train     --module-name=flowersmodel.task     --package-path=${PWD}/flowersmodel     -- --database_path="/Users/jaydevtrivedi/github/Datasets/boston_housing/housing.csv" --train_size_value=0.8 --random_state_value=42 --input_dimensions=3 --batch_size=32 --epochs=10000
